@@ -221,7 +221,7 @@
                     <div class="publication-links">
                          <!-- TODO: Update with your arXiv paper ID -->
                       <span class="link-block">
-                        <a href="https://vfxdb-official.github.io/VfxDB/" target="_blank"
+                        <a href="https://vfxdb-official.github.io/VfxDB/" target="_blank" rel="noopener noreferrer" data-resource-link="paper"
                         class="external-link button is-normal is-rounded is-dark">
                         <span class="icon">
                           <i class="fas fa-file-pdf"></i>
@@ -231,7 +231,7 @@
                     </span>
 
                     <span class="link-block">
-                      <span class="external-link button is-normal is-rounded is-dark is-disabled" aria-disabled="true">
+                      <span class="external-link button is-normal is-rounded is-dark is-disabled" aria-disabled="true" data-resource-link="code">
                         <span class="icon">
                           <i class="fab fa-github"></i>
                         </span>
@@ -241,12 +241,13 @@
                   </span>
 
                   <span class="link-block">
-                    <span class="external-link button is-normal is-rounded is-dark is-disabled" aria-disabled="true">
+                    <a href="https://huggingface.co/datasets/ryogishiki/VfxDB" target="_blank" rel="noopener noreferrer" data-resource-link="dataset"
+                    class="external-link button is-normal is-rounded is-dark">
                       <span class="icon">
                         <i class="fa fa-database"></i>
                       </span>
                       <span>Dataset</span>
-                    </span>
+                    </a>
                     <span class="link-note">(Syncing massive 5T VDB sequences to public server)</span>
                 </span>
             </div>
@@ -295,7 +296,7 @@
       <h2 class="title is-3 has-text-centered">Figures</h2>
       <div id="figures-carousel" class="carousel results-carousel figure-carousel">
         <div class="item">
-          <div class="figure-media">
+          <div class="figure-media overview-media">
             <img src="static/images/figures/Overview.png" alt="Overview of the VfxDB framework" loading="lazy"/>
           </div>
           <h2 class="subtitle has-text-centered">
